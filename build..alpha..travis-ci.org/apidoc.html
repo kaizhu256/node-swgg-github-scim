@@ -1,0 +1,398 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    overflow-wrap: break-word;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/kaizhu256/node-swgg-github-scim"
+
+    >swgg-github-scim (v2018.4.21)</a>
+</h1>
+<h4>this zero-dependency package will provide a (nodejs-compatible) swagger-client for github-scim's web-apis, with a working web-demo</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg-github-scim">module swgg-github-scim</a><ol>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg.apiDict">module swgg.apiDict</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20GET.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20POST.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20DELETE.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20DELETE.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20GET.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PATCH.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PATCH.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PUT.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PUT.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_231_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_231_20GET.ajax
+            <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg-github-scim" id="apidoc.module.swgg-github-scim">module swgg-github-scim</a></h1>
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg.apiDict" id="apidoc.module.swgg.apiDict">module swgg.apiDict</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20GET.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20GET.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;GET /scim/v2/organizations/{}/Users&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20GET&quot;].ajax({
+        &quot;access_token&quot;: &quot;xxxxxxxx&quot;,
+        &quot;user-agent&quot;: &quot;Awesome-Octocat-App&quot;,
+        &quot;accept&quot;: [
+            &quot;application/vnd.github.cloud-9-preview+json+scim&quot;
+        ],
+        &quot;organization&quot;: &quot;organization&quot;,
+        &quot;startIndex&quot;: 0,
+        &quot;count&quot;: 0,
+        &quot;filter&quot;: &quot;abcd1234&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20POST.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20POST.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;POST /scim/v2/organizations/{}/Users&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_20POST&quot;].ajax({
+        &quot;access_token&quot;: &quot;xxxxxxxx&quot;,
+        &quot;user-agent&quot;: &quot;Awesome-Octocat-App&quot;,
+        &quot;accept&quot;: [
+            &quot;application/vnd.github.cloud-9-preview+json+scim&quot;
+        ],
+        &quot;organization&quot;: &quot;organization&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20DELETE.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20DELETE.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20DELETE.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20DELETE.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;DELETE /scim/v2/organizations/{}/Users/{}&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20DELETE&quot;].ajax({
+        &quot;access_token&quot;: &quot;xxxxxxxx&quot;,
+        &quot;user-agent&quot;: &quot;Awesome-Octocat-App&quot;,
+        &quot;accept&quot;: [
+            &quot;application/vnd.github.cloud-9-preview+json+scim&quot;
+        ],
+        &quot;organization&quot;: &quot;organization&quot;,
+        &quot;id&quot;: &quot;id&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20GET.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20GET.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;GET /scim/v2/organizations/{}/Users/{}&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20GET&quot;].ajax({
+        &quot;access_token&quot;: &quot;xxxxxxxx&quot;,
+        &quot;user-agent&quot;: &quot;Awesome-Octocat-App&quot;,
+        &quot;accept&quot;: [
+            &quot;application/vnd.github.cloud-9-preview+json+scim&quot;
+        ],
+        &quot;organization&quot;: &quot;organization&quot;,
+        &quot;id&quot;: &quot;id&quot;,
+        &quot;userName&quot;: &quot;abcd1234&quot;,
+        &quot;name.givenName&quot;: &quot;abcd1234&quot;,
+        &quot;name.lastName&quot;: &quot;abcd1234&quot;,
+        &quot;emails&quot;: [
+            &quot;abcd1234&quot;
+        ],
+        &quot;externalId&quot;: &quot;abcd1234&quot;,
+        &quot;active&quot;: false
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PATCH.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PATCH.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PATCH.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PATCH.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;PATCH /scim/v2/organizations/{}/Users/{}&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PATCH&quot;].ajax({
+        &quot;access_token&quot;: &quot;xxxxxxxx&quot;,
+        &quot;user-agent&quot;: &quot;Awesome-Octocat-App&quot;,
+        &quot;accept&quot;: [
+            &quot;application/vnd.github.cloud-9-preview+json+scim&quot;
+        ],
+        &quot;organization&quot;: &quot;organization&quot;,
+        &quot;id&quot;: &quot;id&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PUT.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PUT.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PUT.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PUT.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;PUT /scim/v2/organizations/{}/Users/{}&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_20PUT&quot;].ajax({
+        &quot;access_token&quot;: &quot;xxxxxxxx&quot;,
+        &quot;user-agent&quot;: &quot;Awesome-Octocat-App&quot;,
+        &quot;accept&quot;: [
+            &quot;application/vnd.github.cloud-9-preview+json+scim&quot;
+        ],
+        &quot;organization&quot;: &quot;organization&quot;,
+        &quot;id&quot;: &quot;id&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_231_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_231_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_231_20GET.ajax
+        <span class="apidocSignatureSpan">(swaggerJson, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_231_20GET.ajax = function (swaggerJson, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will run the api-call &quot;GET /scim/v2/organizations/{}/Users/{}#1&quot;
+ * example usage:
+    swgg.apiDict[&quot;operationId._2Fscim_2Fv2_2Forganizations_2F_7Borganization_7D_2FUsers_2F_7Bid_7D_231_20GET&quot;].ajax({
+        &quot;access_token&quot;: &quot;xxxxxxxx&quot;,
+        &quot;user-agent&quot;: &quot;Awesome-Octocat-App&quot;,
+        &quot;accept&quot;: [
+            &quot;application/vnd.github.cloud-9-preview+json+scim&quot;
+        ],
+        &quot;organization&quot;: &quot;organization&quot;,
+        &quot;id&quot;: &quot;id&quot;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, swaggerJson, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>

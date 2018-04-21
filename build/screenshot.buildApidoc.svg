@@ -1,9 +1,9 @@
-<svg height="878" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="878" fill="#555" width="720"></rect>
+<svg height="894" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="894" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-04-21T18:45:29.547Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-04-21T18:55:47.744Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="58">ode-swgg-github-scim</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 47299</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 42544</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/package.json</tspan>
 
@@ -31,73 +31,75 @@
 
 <tspan x="10" y="282">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/package.json</tspan>
 
-<tspan x="10" y="298">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/README.md</tspan>
+<tspan x="10" y="298">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/package-lock.json</tspan>
 
-<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/test.js</tspan>
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/README.md</tspan>
 
-<tspan x="10" y="330">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/.touch.txt</tspan>
+<tspan x="10" y="330">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/test.js</tspan>
 
-<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/.travis.yml</tspan>
+<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/.touch.txt</tspan>
 
-<tspan x="10" y="362">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-github-scim ...</tspan>
+<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-github-scim/.travis.yml</tspan>
 
-<tspan x="10" y="378">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-github-scim</tspan>
+<tspan x="10" y="378">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-github-scim ...</tspan>
 
-<tspan x="10" y="394">created apidoc file /home/travis/build/kaizhu256/node-swgg-github-scim/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="394">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-github-scim</tspan>
 
-<tspan x="10" y="410"></tspan>
+<tspan x="10" y="410">created apidoc file /home/travis/build/kaizhu256/node-swgg-github-scim/tmp/build/apidoc.html</tspan>
 
-<tspan x="10" y="426">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="426"></tspan>
 
-<tspan x="10" y="442">(node:7505) ExperimentalWarning: The http2 module is an experimental API.</tspan>
+<tspan x="10" y="442">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="458">(node:7505) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+<tspan x="10" y="458">(node:6069) ExperimentalWarning: The http2 module is an experimental API.</tspan>
 
-<tspan x="10" y="474"></tspan>
+<tspan x="10" y="474">(node:6069) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.</tspan>
 
-<tspan x="10" y="490">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-github-scim/tm\</tspan>
-<tspan x="10" y="506">p/build/test-report.json</tspan>
+<tspan x="10" y="490"></tspan>
 
-<tspan x="10" y="522"></tspan>
+<tspan x="10" y="506">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-github-scim/tm\</tspan>
+<tspan x="10" y="522">p/build/test-report.json</tspan>
 
-<tspan x="10" y="538">-------------------------------------------------------</tspan>
+<tspan x="10" y="538"></tspan>
 
-<tspan x="10" y="554">| test-report - buildApidoc - node - linux v9.11.1 - 2018-04-21T18:45:29.795Z</tspan>
+<tspan x="10" y="554">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="570">|     161 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="570">| test-report - buildApidoc - node - linux v9.11.1 - 2018-04-21T18:55:47.931Z</tspan>
 
-<tspan x="10" y="586">-------------------------------------------------------</tspan>
+<tspan x="10" y="586">|     129 ms            0 failed        1 passed      |</tspan>
 
-<tspan x="10" y="602">| test-report - buildApp - node - linux v9.11.1 - 2018-04-21T18:44:06.570Z</tspan>
+<tspan x="10" y="602">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="618">|   80290 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="618">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
+<tspan x="10" y="634">ebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.13 Safari/537.36 - 2018-04-21\</tspan>
+<tspan x="10" y="650">T18:55:30.650Z</tspan>
 
-<tspan x="10" y="634">-------------------------------------------------------</tspan>
+<tspan x="10" y="666">|      17 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="650">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
-<tspan x="10" y="666">ebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.13 Safari/537.36 - 2018-04-21\</tspan>
-<tspan x="10" y="682">T18:45:12.218Z</tspan>
+<tspan x="10" y="682">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="698">|      15 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="698">| test-report - npmTest - node - linux v9.11.1 - 2018-04-21T18:55:29.057Z</tspan>
 
-<tspan x="10" y="714">-------------------------------------------------------</tspan>
+<tspan x="10" y="714">|   16295 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="730"></tspan>
+<tspan x="10" y="730">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="746">created test-report file /home/travis/build/kaizhu256/node-swgg-github-scim/tmp/build/test-repor\</tspan>
-<tspan x="10" y="762">t.html</tspan>
+<tspan x="10" y="746"></tspan>
 
-<tspan x="10" y="778"></tspan>
+<tspan x="10" y="762">created test-report file /home/travis/build/kaizhu256/node-swgg-github-scim/tmp/build/test-repor\</tspan>
+<tspan x="10" y="778">t.html</tspan>
 
 <tspan x="10" y="794"></tspan>
 
-<tspan x="10" y="810">buildApidoc - 0 failed tests</tspan>
+<tspan x="10" y="810"></tspan>
 
-<tspan x="10" y="826"></tspan>
+<tspan x="10" y="826">buildApidoc - 0 failed tests</tspan>
 
 <tspan x="10" y="842"></tspan>
 
-<tspan x="10" y="858">[MODE_BUILD=buildApidoc] - 2018-04-21T18:45:31.408Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="858"></tspan>
+
+<tspan x="10" y="874">[MODE_BUILD=buildApidoc] - 2018-04-21T18:55:49.459Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
